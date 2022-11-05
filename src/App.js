@@ -2,6 +2,7 @@
 import Banner from './components/Banner';
 import TopBar from './components/TopBar';
 import TopSection from './components/TopSection';
+import Locations from './components/Locations';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Banner />
       <TopBar />
       <TopSection />
+      <Locations />
     </div>
   );
 }
