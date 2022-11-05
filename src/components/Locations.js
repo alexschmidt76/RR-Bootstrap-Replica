@@ -1,4 +1,4 @@
-import { Button, Card, CardGroup, Container } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 export default function Locations() {
     let locationsData = [
@@ -71,7 +71,6 @@ export default function Locations() {
                             }
                         </p>
                     </div>
-                    
                 </Button>
             </div>
         )
@@ -79,7 +78,7 @@ export default function Locations() {
     );
 
     return (
-        <div style={{'textAlign': 'center', 'width': '80%', 'margin': 'auto'}}>
+        <div style={{'textAlign': 'center', 'width': '60%', 'margin': 'auto'}}>
             <h3>Choose Your Store</h3>
             <div className='d-flex flex-wrap'>
                 {locationsData}
